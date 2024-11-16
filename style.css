@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: url(back.png) no-repeat center/cover;
+    height: 875px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.head_menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.head_menu a{
+    color: white;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.head_menu a:hover{
+    color: #F57520;
+} 
+.nav_img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav_img img{
+    width: 24px;
+    height: 24px;
+}
+.head_main{
+    padding-top: 140px;
+}
+.head_main h1{
+    color: white;
+    font-size: 96px;
+    padding-bottom: 30px;
+    padding-right: 200px;
+}
+.head_main p{
+    color: white;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.head_main button{
+    width: 180px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: #F57520;
+    border: transparent;
+    color: white;
+}
+main{
+    background-color:gray;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.content{
+    width: 1250px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+.tradin{
+    position: relative;
+    top: 270px;
+}
+.velosiped{
+    position: relative;
+    bottom: 500px;
+}
+.zapchasti{
+    position: relative;
+    bottom: 495px;
+    left: 410px;
+}
+.velostanki{
+    position: relative;
+    bottom: 480px;
+    left: 410px;
+}
+.ekipirovka{
+    position: relative;
+    left: 415px;
+    bottom: 495px;
+}
+.velostanki2{
+    position: relative;
+    bottom: 480px;
+    left: 410px;
+}
+main p{
+    font-size: 40px;
+    font-weight: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.group {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.box1{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.5s;
+}
+.box1 p{
+    color: white;
+    width: 315px;
+    height: 87px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom:20px ;
+}
+.box2 p{
+    color: white;
+    width: 315px;
+    height: 87px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.box1 h2{
+    color: white;
+    padding-left: 20px;
+}
+.box2{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.5s;
+}
+.box2 p{
+    color: white;
+}
+.box2 h2{
+    color: white;
+    padding-left: 20px;
+}
+.box:hover {
+    background-color: #F57520;
+    color: black;
+}
+.box img {
+    padding: 50px 0 50px 50px;
+}
+.box h2 {
+    padding: 50px 0 50px 50px;
+}
+.box p{
+    padding: 50px 0 50px 50px;
+}
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   gap: 50px;
+   background-color: #F57520;
+   padding-top: 40px;
+}
+.svyajites{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.content{
+    width: 1250px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+.div-input img{
+    width: 500px;
+    height: 400px;
+}
+.div-input {
+    width: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    left: 100px;
+}
+.input {
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 460px;
+    height: 39.11px;
+    padding: 1rem;
+}
